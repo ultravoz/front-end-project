@@ -1,0 +1,21 @@
+{
+  "name": "front-end-project",
+  "version": "1.0.0",
+  "description": "repositorio para la creación de proyectos relacionados con el curso front-end con framework javascript",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultravoz/front-end-project.git"
+  },
+  "author": "pablo goris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ultravoz/front-end-project/issues"
+  },
+  "homepage": "https://github.com/ultravoz/front-end-project#readme"
+}
