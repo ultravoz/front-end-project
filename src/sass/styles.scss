@@ -1,12 +1,19 @@
 $secondaryColor: #f60;
 $thirdColor: #999;
 $defaultFontSize: 2rem;
-$fontFamily:'helvetica', arial;
+$fontFamily:'helvetica', roboto;
 $fontColor:#999;
 $fontVariantOne: 700;
 $primaryColor:#666;
 
-.hello-container{width:900px; margin:0 auto; border:1px solid $thirdColor}
+.hello-container{
+  width:100%;
+  margin:0 auto;
+  border-left:1px solid $thirdColor;
+  border-top:1px solid $thirdColor;
+  border-right:1px solid $thirdColor;
+  border-bottom:1px solid $secondaryColor;
+}
 
 h1{
   text-align: center;
