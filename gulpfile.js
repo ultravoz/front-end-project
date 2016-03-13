@@ -9,9 +9,14 @@ var browserSync = require('browser-sync').create();
 gulp.task('browser-sync', function() {
     browserSync.init(['dist/css/*.css','dist/js/*.js'],{
         server: {
-            baseDir: "./"
+            baseDir: "./dist"
         }
     });
+});
+
+gulp.task('copyHtml', function() {
+    // copy any html files in source/ to public/
+    gulp.src('src/*.html').pipe(gulp.dest('dist'));
 });
 // css
 gulp.task('sass', function () {
@@ -29,9 +34,10 @@ gulp.task('scripts', function () {
 
 });
 // watching tasks
-gulp.task('watch',['scripts', 'sass', 'browser-sync'], function () {
+gulp.task('watch',['scripts', 'sass', 'browser-sync', 'copyHtml'], function () {
     gulp.watch('src/js/*.js', ['scripts']);
     gulp.watch('src/sass/**/*.scss', ['sass']);
+    gulp.watch('src/*.html', ['copyHtml']);
 });
 
-gulp.task('default', ['scripts', 'sass', 'watch']);
+gulp.task('default', ['scripts', 'sass', 'watch', 'copyHtml']);

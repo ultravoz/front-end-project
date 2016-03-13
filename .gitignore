@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+.idea/jsLibraryMappings.xml
+.idea/libraries/front_end_project_node_modules.xml
+.idea/vcs.xml
