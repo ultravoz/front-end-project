@@ -1,24 +1,2 @@
-<<<<<<< HEAD
 node_modules/
 .idea/
-.idea/jsLibraryMappings.xml
-.idea/libraries/front_end_project_node_modules.xml
-.idea/vcs.xml
-=======
-.idea/.name
-.idea/encodings.xml
-.idea/front-end-project.iml
-.idea/jsLibraryMappings.xml
-.idea/libraries/front_end_project_node_modules.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
-node_modules/gulp-html-compile/.npmignore
-node_modules/gulp-html-compile/.travis.yml
-node_modules/gulp-html-compile/gulp-html-compile.js
-node_modules/gulp-html-compile/LICENSE.md
-node_modules/gulp-html-compile/package.json
-node_modules/gulp-html-compile/README.md
-node_modules/gulp-html-compile/test.js
->>>>>>> refs/remotes/origin/master
